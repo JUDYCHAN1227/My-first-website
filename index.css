@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 1100px;
+    margin: auto;
+}
+
+
+
+/* clear the dot in front of li */
+li {
+    list-style: none;
+}
+
+/* clear all a's underline */
+a {
+    text-decoration: none;
+
+}
+
+
+
+.header {
+    /* the height of the whole header */
+    height: 80px;
+
+    /* cover w's margin */
+    /* the margin from the top-edge */
+    margin: 10px auto;
+
+}
+
+.logo {
+    float: left;
+}
+
+.nav {
+    float: left;
+    /* the distance between nav and logo */
+    margin-left: 350px;
+}
+
+.nav ul li {
+    float: left;
+    /* margin: 0 15px; */
+}
+
+.nav ul li a {
+    display: block;
+    /* height: 80px; */
+    padding: 0 10px;
+    line-height: 42px;
+    font-size: 16px;
+    color: black;
+    margin: 30px auto;
+    font-weight: 700;
+
+}
+
+.nav ul li a:hover {
+    border-bottom: 1px solid rgb(70, 71, 70);
+    color: rgb(234, 151, 49);
+}
+
+/* search session */
+.search {
+    float: left;
+    width: 170px;
+    height: 80px;
+    /* the distance between nav and search */
+    margin-left: 130px;
+    font-weight: 700;
+
+}
+
+.search input {
+    float: left;
+    width: 135px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 38px auto;
+
+    color: #000;
+    font-size: 12px;
+    padding-left: 10px;
+
+
+}
+
+.search button {
+    float: left;
+    width: 15px;
+    height: 15px;
+    background: url(images/search.svg);
+    /* clear default border */
+    border: 0;
+    margin: 42px auto;
+    margin-left: 3px;
+}
+
+/* header session ends */
+
+.banner {
+    height: 500px;
+    /* background-color: rgb(245, 252, 245); */
+}
+
+.banner .w {
+    height: 500px;
+
+    /* margin: 10px auto; */
+    background: url(images/main3.jpg) no-repeat top center;
+
+}
+
+.user {
+    float: right;
+    margin-right: 5px;
+    line-height: 100px;
+
+
+}
+
+.subnav {
+    float: right;
+    width: 190px;
+    height: 500px;
+    /* background: #000 0.3; */
+    background: rgb(239, 247, 237, 0.3);
+}
+
+.subnav ul li {
+    /* 行高 */
+    height: 60px;
+    /* 行与行之间的距离 */
+    line-height: 60px;
+    /* 上面不需要，左右20 */
+    padding: 5px 20px;
+}
+
+.subnav ul li a {
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(49, 94, 49);
+
+}
+
+.subnav ul li a span {
+    font-weight: 700;
+    float: right;
+}
+
+.subnav ul li a:hover {
+    color: rgb(234, 151, 49);
+}
+
+
+/* Photo Gallery session */
+.goods {
+    /* 绿盒子跟上面对齐 */
+    margin-left: 80px;
+    /* 绿盒子 300宽 */
+    width: 300px;
+    /* 绿盒子距离上面30 */
+    margin-top: 20px;
+    height: 60px;
+    background-color: rgb(237, 253, 245);
+    /* 绿盒子右边框和阴影 */
+    border-right: 2px solid#ccc;
+    /* 水平 垂直 模糊距离 */
+    box-shadow: 2px 0 3px rgba(246, 233, 224, 0.1);
+    /* line-height extends */
+    line-height: 60px;
+
+}
+
+.goods h3 {
+    float: left;
+    /* Top6 距离左边20 */
+    margin-left: 20px;
+    color: rgb(0, 0, 0)
+}
+
+.goods ul {
+    float: right;
+
+}
+
+
+.goods ul li a:hover {
+    color: rgb(234, 151, 49);
+    font-weight: 700;
+}
+
+.goods ul li a {
+
+    padding: 0 20px;
+    color: black;
+    border-left: 1px solid #ccc;
+}
+
+
+
+.box {
+    border: 2px solid rgb(227, 251, 239);
+    /* rgb(252, 239, 223) */
+    height: 575px;
+
+}
+
+.box-bd {
+    padding: 10px;
+}
+
+.box-bd ul {
+    width: 1110px;
+}
+
+.box-bd ul li {
+    float: left;
+    width: 350px;
+    height: 270px;
+    background-color: rgb(255, 246, 237);
+    margin-right: 12px;
+    margin-bottom: 12px;
+}
+
+.box-bd ul li img {
+    width: 70%;
+    height: 270px;
+}
+
+.box-bd ul li h3 {
+    float: right;
+    /* 上 右 下 左 */
+    margin: 100px 10px 50px 0;
+
+}
+
+.footer {
+    height: 200px;
+
+}
+
+.footer .w {
+    padding-top: 30px;
+}
+
+.links {
+    float: right;
+}
+
+.links dl {
+    float: left;
+    margin-left: 100px;
+}
+
+.links dl dt {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.links dd a {
+    color: #333;
+    font-size: 12px;
+}
+
+/* Baking Tools session starts */
+
+
+.goods h4 {
+    margin-left: 20px;
+}
+
+/* Baking Tools session ends */
+
+
+/* breakfast session */
+.carousel {
+    /* set the size and color of display area */
+
+    width: 900px;
+    height: 550px;
+    background-color: rgb(252, 249, 216);
+    padding: 20px 0;
+    margin: 10px auto;
+    /* set position as il parent element */
+    position: relative;
+    /* Cut the image content in the overflow carousel display area */
+    overflow: hidden;
+}
+
+.imglist {
+    position: absolute;
+    list-style: none;
+    /* top: 0;
+    width: 0;
+    width: 700%;
+    height: 350px; */
+}
+
+.imglist li {
+    float: left;
+    margin: 0 10px;
+    /* width: 500px;
+    height: 350px; */
+}
+
+.imglist li img {
+    object-fit: cover;
+    /* width: 500px;
+    height: 350px; */
+}
+
+.handler {
+    /* set the buttun position of a */
+    position: absolute;
+    bottom: 40px;
+}
+
+.handler a {
+    /* set the size style of a */
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: antiquewhite;
+    opacity: 0.6;
+    margin: 0 10px;
+}
+
+.handler a:hover {
+    background-color: aquamarine;
+}
